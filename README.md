@@ -20,7 +20,7 @@ For now, the matching table works by iterationg through the list of transactions
 In order to authenticate the scripts and there is no longer a valid access & refresh token, a user that has the appropriate privileges in fortnox needs to click through an authentication and make sure a authentication code gets added to the .env file (either by writing it directly or emailing someone who can put it in)
 
 The following URL will lead to authentication and once authenticated the redirect URL will contain the authcode that needs to be entered into the .env file:
-https://apps.fortnox.se/oauth-v1/auth?client_id=b2g2khPkn8Y0&redirect_uri=https://darksoil.studio&scope=companyinformation%20supplier%20supplierinvoice%20bookkeeping%20connectfile&state=somestate123&access_type=offline&response_type=code&account_type=service
+https://apps.fortnox.se/oauth-v1/auth?client_id=b2g2khPkn8Y0&redirect_uri=https://darksoil.studio&scope=companyinformation%20inbox%20bookkeeping%20connectfile&state=somestate123&access_type=offline&response_type=code&account_type=service
 
 
 
