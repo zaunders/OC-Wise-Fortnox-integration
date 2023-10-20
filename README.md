@@ -20,10 +20,15 @@ A tricky and not so great thing is that voucher file connections, the entry that
 IF SOMEONE CHANGES THIS DEFAULT TO ANOTHER YEAR THERE WILL BE NO CONNECTIONS BETWEEN FILES AND VOUCHERS
 
 This setting is found by loggin into fortnox, clicking calendar symbol with currently viewed year after it:
+![calendar icon](https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/images/fortnox_calendar_year.png "click calendar")
+
 
 Then going to the edit section (Skapa nytt / redigera / radera år):
+![year picker](https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/images/year_settings.png "pick year")
+
 
 Then clicking on the year that you want to set as default:
+![select year](https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/images/yes_to_default.png "select default")
 
 Then choosing YES for "Öppna detta räkenskapsår vid inlogg"
 
