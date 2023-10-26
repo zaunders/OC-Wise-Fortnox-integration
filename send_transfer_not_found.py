@@ -1,7 +1,13 @@
 import requests
 from datetime import datetime
+import os
+from dotenv import load_dotenv 
 
 def sendTransferNotFound(transferId):
+    # Load the .env file and get the access token for fortnox
+    load_dotenv('./.env')
+    access_token = os.getenv('postmark_api_token')
+
     # Define the URL of the Postmark API endpoint for sending emails
     api_url = "https://api.postmarkapp.com/email"
 
