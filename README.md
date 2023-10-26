@@ -7,6 +7,9 @@ It works by pulling completed transactions from Wise, finds all of the relevant 
 
 For every voucher (verifikat in Swedish) a pdf of expense information is created and uploaded along with a .json file of the same information in case there is a need to read the information back out of Fortnox at some point.
 
+The main script running is called: **script_get_wise_transactions_book_and_match.py**
+
+
 ## Deployment
 The script runs daily. For it to work, the .env file must be edited manually to set the api keys for Wise, Open Collective and Fortnox. For Open Collective, authorization must be done every 3 months in order renew the access token. For Fortnox, the refresh token can be used so long as the script runs at least once every 30 days. 
 
