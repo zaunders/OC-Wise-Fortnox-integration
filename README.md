@@ -55,7 +55,7 @@ Once an access token has been recived, there is also a refresh token recieved an
 
 ### Open Collective
 Similar to Fortnox, in open collective the access token also becomes invalid over time. **An access token is valid for 90 days at Open collective**. After that a new authcode needs to be retrieved and put into the .env file. In order to do so, a user with adequate access will need to access through the following URL:
-https://opencollective.com/oauth/authorize?client_id=e5393aa85430c0b1da1d&response_type=code&redirect_url=https://opencollective.com/borderland/&scope=email,account,expenses,transactions,orders
+https://opencollective.com/oauth/authorize?client_id=ac6ba66667773ef1589a&response_type=code&redirect_url=https://opencollective.com/borderland/&scope=email,account,expenses,transactions,orders
 
 After authentication, the redirect URL will contain a parameter called **authcode**, this code must be entered into the .env file. Then the authentication script can then be run run so that the access token is recived and is automatically updated in the .env file.
 

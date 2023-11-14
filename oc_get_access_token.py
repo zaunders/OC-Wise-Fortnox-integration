@@ -1,7 +1,7 @@
 import requests
 from dotenv import set_key, load_dotenv
 import os
-
+import datetime
 
 # Load the .env file and get the authcode
 load_dotenv('./.env')
@@ -22,7 +22,7 @@ data = {
     "grant_type": "authorization_code",
     "client_id": client_id,
     "client_secret": client_secret,
-    "code": f"{authcode}",
+    "code": authcode,
     "redirect_uri": "https://opencollective.com/borderland/"
 }
 
@@ -36,6 +36,11 @@ if response.status_code == 200:
     #print(f"Access Token: {access_token}")
     #print(f"{full_response}")
     set_key('.env', 'oc_access_token', access_token)
+    time_now = datetime.datetime.now()
+    formatted_date = time_now.strftime("%Y-%m-%d")
+    set_key('.env', 'oc_access_token_created', formatted_date)
+
+
 else:
     # If the request was not successful, print an error message
     print(f"Error: {response.status_code} - {response.text}")

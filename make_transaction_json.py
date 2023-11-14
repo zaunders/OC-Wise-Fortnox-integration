@@ -1,6 +1,9 @@
 import json
+import os
 
 def makeJson(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items):
+    relative_path=os.getenv("relative_path")
+
     transaction_json = {
         "transferId": transferId,
         "createDate": created,
@@ -14,7 +17,7 @@ def makeJson(transferId, created, value, AccountSlug, Description, LegacyId, Tag
     }
     
     # Specify the name of the file you want to write to
-    filename = f'./json_files/{transferId}.json'
+    filename = f'{relative_path}json_files/{transferId}.json'
 
     # Write the JSON object to a file
     with open(filename, 'w') as file:

@@ -1,14 +1,17 @@
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.colors import lightgrey, black, blue
 from reportlab.pdfgen import canvas
+import os
 
 
 def make_voucher_pdf(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items):
     invoice_file_list = invoiceFiles.split(";")
     expence_items_list = Items.split(";")
 
+    relative_path=os.getenv("relative_path")
+
     # Create PDF
-    pdf_path = f"./pdfs/wise_transaction_{transferId}.pdf"
+    pdf_path = f'{relative_path}pdfs/wise_transaction_{transferId}.pdf'
     c = canvas.Canvas(pdf_path, pagesize=letter)
     width, height = letter
     

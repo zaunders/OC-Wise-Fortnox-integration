@@ -15,6 +15,8 @@ from send_error_message_email import sendErrorEmail
 from send_transfer_not_found import sendTransferNotFound
 from find_voucher_number import findVoucherNumber
 from fortnox_get_voucher_by_voucher_number import getVoucherByVoucherNumber
+from send_oc_token_expiring import sendOcExpiring
+from get_time_since_day import get_time_since_created
 import time
 
 
@@ -30,24 +32,40 @@ import time
 
 # Load the .env file
 load_dotenv('./.env')
+relative_path=os.getenv("relative_path")
+
+
+#Check when OC token was created and if it is expiring soon, send an email
+age_of_token = get_time_since_created()
+
+
+
+print("days since OC token was created: "+str(age_of_token))
+if age_of_token == 75:
+    sendOcExpiring(age_of_token)
+elif age_of_token > 86:
+    sendOcExpiring(age_of_token)
+
+
+ 
 
 #set the access tokens
 wise_api_token = os.getenv("wise_api_token")
 oc_access_token = os.getenv("oc_access_token")
-fortnox_access_token = ""
+fortnox_access_token = os.getenv("oc_access_token")
 
 # Get the current date amd format to YYYY-MM-DD
 current_date = datetime.now()
 today_date_formatted = current_date.strftime('%Y-%m-%d')
 
 # between which dates are we getting transactions Wise
-wise_start_date="2023-10-01"      
-wise_end_date="2023-10-30"
+wise_start_date=os.getenv("wise_start_date")     
+wise_end_date=os.getenv("wise_end_date") 
 #wise_end_date=today_date_formatted
 
 # OC expense start and end dates for getting information
-oc_start_date="2022-08-10T00:00:00Z"
-oc_end_date="2023-10-26"
+oc_start_date=os.getenv("oc_start_date") 
+#oc_end_date="2023-10-26"
 
 # setting upp the json objects needed
 Wise_completed_transactions = []
@@ -60,8 +78,8 @@ fortnox_account_lookup = getMatchingTable()
 
 # Storing a list of booked transfers, this is checked to avoid double booking (recovering a spammed Fortnox account would be a pain)
 # the list is also a lookup table for the Fortnox voucher number for each recorded transaction (used for booking refunded transactions)
-booked_transfers = np.load('booked_transfers.npy')
-refunded_transfers_booked = np.load('refunded_transfers_booked.npy')
+booked_transfers = np.load(f'{relative_path}booked_transfers.npy')
+refunded_transfers_booked = np.load(f'{relative_path}refunded_transfers_booked.npy')
 
 
 
@@ -151,7 +169,7 @@ print (len(full_expenses))
 ##############################################################################################################
 
 # get list of unmached transfers that have already been processed
-processed = np.load('unmatched_transfers_handled.npy')
+processed = np.load(f'{relative_path}unmatched_transfers_handled.npy')
 
 
 def join_transactions(Wise_completed_transactions, full_expenses, key_wise, key_oc):
@@ -185,7 +203,7 @@ def join_transactions(Wise_completed_transactions, full_expenses, key_wise, key_
                     # Add the transferId to the list of handled unmached items so that email is not sent next time it is encountered
                     trasfer_emailed = np.array([wise["transferId"]])
                     unmatched_transfers_handled = np.concatenate((processed, trasfer_emailed))
-                    np.save('unmatched_transfers_handled.npy', unmatched_transfers_handled)
+                    np.save(f'{relative_path}unmatched_transfers_handled.npy', unmatched_transfers_handled)
 
 
 
@@ -251,7 +269,7 @@ for item in transactions_with_oc_info:
 
             # Concatenate existing array and save, this will do a new file write for every record, my be resource intensive but will not lose data if script crashes
             booked_transfers = np.concatenate((booked_transfers, newTransfer))
-            np.save('booked_transfers.npy', booked_transfers)
+            np.save(f'{relative_path}booked_transfers.npy', booked_transfers)
 
 
         # uploading the pdf file
@@ -317,7 +335,7 @@ for item in Wise_transactions_refunded:
 
                 # Concatenate existing array and save, this will do a new file write for every record, my be resource intensive but will not lose data if script crashes
                 refunded_transfers_booked = np.concatenate((refunded_transfers_booked, newTransfer))
-                np.save('refunded_transfers_booked.npy', refunded_transfers_booked)
+                np.save(f'{relative_path}refunded_transfers_booked.npy', refunded_transfers_booked)
 
 
 

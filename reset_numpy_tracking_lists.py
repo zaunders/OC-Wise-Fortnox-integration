@@ -1,9 +1,16 @@
 import numpy as np
+from dotenv import set_key, load_dotenv
+import os
+
+# Load the .env file
+load_dotenv('./.env')
+relative_path=os.getenv("relative_path")
+
 
 booked_transfers = np.array([[0,0]])
 refunded_transfers_booked = np.array([[0,0]])
 unmatched_transfer_ids = np.array([0])
-np.save('booked_transfers.npy', booked_transfers)
-np.save('refunded_transfers_booked.npy', refunded_transfers_booked)
-np.save('unmatched_transfers_handled.npy', unmatched_transfer_ids)
+np.save(f'{relative_path}booked_transfers.npy', booked_transfers)
+np.save(f'{relative_path}refunded_transfers_booked.npy', refunded_transfers_booked)
+np.save(f'{relative_path}unmatched_transfers_handled.npy', unmatched_transfer_ids)
 
