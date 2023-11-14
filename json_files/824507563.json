@@ -1,0 +1,11 @@
+{
+    "transferId": "824507563",
+    "createDate": "2023-10-04 08:52:17",
+    "value": 568.23,
+    "AccountSlug": "unconference-2023",
+    "Description": "Fuel to/from Unconference David H",
+    "LegacyId": 164679,
+    "Tags": "transportation, ",
+    "invoiceFiles": "",
+    "Items": "https://opencollective-production.s3.us-west-1.amazonaws.com/expense-item/dfe74882-63a4-4488-bf2c-d3349140035f/Shell(1)_DH.pdf; https://opencollective-production.s3.us-west-1.amazonaws.com/expense-item/b467e2c9-5118-49e4-8db2-3a82017f7087/Shell(2)_DH.pdf; "
+}

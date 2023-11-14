@@ -4,7 +4,7 @@ import os
 
 
 # Load the .env file and get the authcode
-load_dotenv('./.env')
+load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
 refresh_token = os.getenv('fortnox_refresh_token')
 credentials = os.getenv('fortnox_credentials')
 
@@ -40,4 +40,4 @@ else:
 
 set_key('.env', 'fortnox_access_token', access_token)
 set_key('.env', 'fortnox_refresh_token', refresh_token)
-
+print("Fortnox tokens refreshed!")

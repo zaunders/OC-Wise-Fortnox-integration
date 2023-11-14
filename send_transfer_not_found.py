@@ -31,7 +31,7 @@ def sendTransferNotFound(transferId):
 
     # Check the response
     if response.status_code == 200:
-        print("Email sent successfully!")
+        print("Transfer not found email sent successfully!")
     else:
         print("Failed to send email:", response.text)
 

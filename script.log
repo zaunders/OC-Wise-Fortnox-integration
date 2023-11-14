@@ -1,0 +1,32 @@
+Fortnox tokens refreshed!
+starting script..
+days since OC token was created: 0
+rows in wise completed:
+3
+All rows from OC:
+1473
+rows in joined list:
+3
+script finished!
+Error: 400 - {"error":"invalid_grant","error_description":"Invalid refresh token"}
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/fortnox_exchange_refresh_token.py", line 41, in <module>
+    set_key('.env', 'fortnox_access_token', access_token)
+NameError: name 'access_token' is not defined
+starting script..
+days since OC token was created: 0
+rows in wise completed:
+9
+All rows from OC:
+1473
+Email sent successfully!
+rows in joined list:
+8
+booked voucher: 4 with connected file: https://api.fortnox.se/3/voucherfileconnections/2fd5f3ec-cede-47a7-8718-9697a7eebb18
+booked voucher: 5 with connected file: https://api.fortnox.se/3/voucherfileconnections/0bb6d364-981f-4268-889d-bbed615efea6
+booked voucher: 6 with connected file: https://api.fortnox.se/3/voucherfileconnections/d008d784-5f5c-4955-937b-f2b0301856f5
+booked voucher: 7 with connected file: https://api.fortnox.se/3/voucherfileconnections/87fd3639-85db-485a-82cf-5b72a717bdf1
+booked voucher: 8 with connected file: https://api.fortnox.se/3/voucherfileconnections/e0726630-98da-4833-9866-f0a659daaf9f
+Script ran successfully at: 2023-11-14
+-------------------------------------------------------------------------------------------------------
+script finished!

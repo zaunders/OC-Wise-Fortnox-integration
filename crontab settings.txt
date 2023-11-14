@@ -1,0 +1,3 @@
+chmod +x /path/to/your/script.sh
+minute hour
+0 3 * * * /home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/cronjob.sh >> /home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script.log 2>&1

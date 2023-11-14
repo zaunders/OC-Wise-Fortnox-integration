@@ -1,0 +1,11 @@
+{
+    "transferId": "833625735",
+    "createDate": "2023-10-12 20:06:06",
+    "value": 6500.0,
+    "AccountSlug": "infrastructure-2023",
+    "Description": "Courier/Transport costs Sthlm-Alversj\u00f6",
+    "LegacyId": 165303,
+    "Tags": "",
+    "invoiceFiles": "",
+    "Items": "https://opencollective-production.s3.us-west-1.amazonaws.com/expense-item/134857d5-bb14-441c-ad53-9b62bbb31646/IMG-4202.png; https://opencollective-production.s3.us-west-1.amazonaws.com/expense-item/c868c5a3-6d33-4322-8a88-2162ace71bf6/IMG-4201.png; "
+}

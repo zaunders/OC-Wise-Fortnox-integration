@@ -31,15 +31,12 @@ import time
 ##############################################################################################################
 
 # Load the .env file
-load_dotenv('./.env')
+load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
 relative_path=os.getenv("relative_path")
 
 
 #Check when OC token was created and if it is expiring soon, send an email
 age_of_token = get_time_since_created()
-
-
-
 print("days since OC token was created: "+str(age_of_token))
 if age_of_token == 75:
     sendOcExpiring(age_of_token)
@@ -338,7 +335,8 @@ for item in Wise_transactions_refunded:
                 np.save(f'{relative_path}refunded_transfers_booked.npy', refunded_transfers_booked)
 
 
-
+print("Script ran successfully at: "+str(today_date_formatted))
+print("-------------------------------------------------------------------------------------------------------")
 """
 ##############################################################################################################
 # Printing all collections to CSVs for debugging

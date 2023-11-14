@@ -33,7 +33,7 @@ def sendErrorEmail(error_message):
 
     # Check the response
     if response.status_code == 200:
-        print("Email sent successfully!")
+        print("Error sent successfully!", response.text)
     else:
         print("Failed to send email:", response.text)
 
