@@ -16,6 +16,7 @@ from send_transfer_not_found import sendTransferNotFound
 from find_voucher_number import findVoucherNumber
 from fortnox_get_voucher_by_voucher_number import getVoucherByVoucherNumber
 from send_oc_token_expiring import sendOcExpiring
+from send_script_finished_log import sendFinished
 from get_time_since_day import get_time_since_created
 import time
 
@@ -64,11 +65,14 @@ wise_end_date=os.getenv("wise_end_date")
 oc_start_date=os.getenv("oc_start_date") 
 #oc_end_date="2023-10-26"
 
-# setting upp the json objects needed
+# setting upp the lists for json objects needed
 Wise_completed_transactions = []
 Wise_transactions_refunded = []
 OC_expense_list = []
 unmatched_Wise_transactions = []
+
+# declaring empty list to track all booked transfers, used for emailing bookkeeper when a script is run
+booked_voucher_html=[]
 
 # Set up account matching dictionary
 fortnox_account_lookup = getMatchingTable()
@@ -287,12 +291,9 @@ for item in transactions_with_oc_info:
         pdf_file_connection = createVoucherFileConnection(uploaded_url, uploaded_file_id, bookedVoucher["Voucher"]["VoucherNumber"], bookedVoucher["Voucher"]["VoucherSeries"])
         json_file_connection = createVoucherFileConnection(uploaded_json_url, uploaded_json_file_id, bookedVoucher["Voucher"]["VoucherNumber"], bookedVoucher["Voucher"]["VoucherSeries"])
 
-        
+        new_booking = "Wise transaction: <b>"+item.get("transferId")+"</b>, was booked as voucher number <b>"+str(bookedVoucher["Voucher"]["VoucherNumber"])+"</b> to the Fortnox account: <b>"+str(booking_account)+"</b> (OC description: <b>"+item.get("Description")+"</b>)"
+        booked_voucher_html.append(new_booking)
         print (f"booked voucher: {bookedVoucher['Voucher']['VoucherNumber']} with connected file: {pdf_file_connection['VoucherFileConnection']['@url']}")
-    
-    
-#  Setting current date as the last time that the script has been run successfully                       
-set_key('.env', 'last_completed_run_date', today_date_formatted)
 
 
 
@@ -301,8 +302,6 @@ set_key('.env', 'last_completed_run_date', today_date_formatted)
 ##############################################################################################################
 # Getting the list of just transferIds that have been handled as refunded transfers
 refunded_ids = refunded_transfers_booked[:, 0]
-
-
 
 # Go through the list of refunded transfers, if they have been booked before and have not been handled as refunds yet, book the reverse of the original voucher in Fortnox
 for item in Wise_transactions_refunded:
@@ -335,8 +334,19 @@ for item in Wise_transactions_refunded:
                 np.save(f'{relative_path}refunded_transfers_booked.npy', refunded_transfers_booked)
 
 
+
+#  Setting current date as the last time that the script has been run successfully                       
+set_key('.env', 'last_completed_run_date', today_date_formatted)
+
+
+# email summary of booked transfers to bookkeeper
+if booked_voucher_html != []:
+    sendFinished(booked_voucher_html)
+
+# output ending for easier log reading
 print("Script ran successfully at: "+str(today_date_formatted))
 print("-------------------------------------------------------------------------------------------------------")
+print()
 """
 ##############################################################################################################
 # Printing all collections to CSVs for debugging
