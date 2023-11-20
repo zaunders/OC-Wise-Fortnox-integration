@@ -13,6 +13,11 @@ The main script running is called: **script_get_wise_transactions_book_and_match
 ## Deployment
 The script runs daily. For it to work, the .env file must be edited manually to set the api keys for Wise, Open Collective and Fortnox. For Open Collective, authorization must be done every 3 months in order renew the access token. For Fortnox, the refresh token can be used so long as the script runs at least once every 30 days. 
 
+Things that are set in the .env file besides the authentication (below) is:
+start and end of transactions to be processed
+emails to bookeeper/maintainers
+
+
 ## Financial year
 When creating a voucher, what financial year it is put into is determained by the booking date of the voucher, **fortnox will select the bookkeeping year that corresponds to the voucher booking date**.
 
