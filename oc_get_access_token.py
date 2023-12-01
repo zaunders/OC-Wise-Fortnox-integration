@@ -37,7 +37,7 @@ if response.status_code == 200:
     #print(f"{full_response}")
     set_key('.env', 'oc_access_token', access_token)
     time_now = datetime.datetime.now()
-    formatted_date = time_now.strftime("%Y-%m-%d")
+    formatted_date = time_now.strftime("%Y-%m-%d-%H-%M")
     set_key('.env', 'oc_access_token_created', formatted_date)
 
 

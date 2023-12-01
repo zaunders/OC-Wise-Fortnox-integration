@@ -1,10 +1,12 @@
 import requests
 from dotenv import set_key, load_dotenv
 import os
+import datetime
 
 
 # Load the .env file and get the authcode
 load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
+relative_path=os.getenv("relative_path")
 refresh_token = os.getenv('fortnox_refresh_token')
 credentials = os.getenv('fortnox_credentials')
 
@@ -37,7 +39,9 @@ else:
     # If the request was not successful, print an error message
     print(f"Error: {response.status_code} - {response.text}")
 
-
-set_key('.env', 'fortnox_access_token', access_token)
-set_key('.env', 'fortnox_refresh_token', refresh_token)
+time_now = datetime.datetime.now()
+formatted_date = time_now.strftime("%Y-%m-%d-%H-%M")
+set_key(f'{relative_path}.env', 'fortnox_access_token', access_token)
+set_key(f'{relative_path}.env', 'fortnox_refresh_token', refresh_token)
+set_key(f'{relative_path}.env', 'fortnox_token_last_update', formatted_date)
 print("Fortnox tokens refreshed!")
