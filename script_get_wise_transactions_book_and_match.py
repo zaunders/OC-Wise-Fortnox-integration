@@ -6,7 +6,7 @@ from datetime import datetime
 from make_transaction_pdf import make_voucher_pdf
 from make_transaction_json import makeJson
 from oc_get_expenses import getExpensesFromOC
-from get_matching_table import getMatchingTable
+from get_matching_tables import getMatchingTables
 from fortnox_create_voucher import createVoucher
 from fortnox_upload_file import uploadFile
 from fortnox_create_file_connection import createVoucherFileConnection
@@ -75,7 +75,7 @@ unmatched_Wise_transactions = []
 booked_voucher_html=[]
 
 # Set up account matching dictionary
-fortnox_account_lookup = getMatchingTable()
+fortnox_account_lookup = getMatchingTables("fortnox_account_lookup")
 
 # Storing a list of booked transfers, this is checked to avoid double booking (recovering a spammed Fortnox account would be a pain)
 # the list is also a lookup table for the Fortnox voucher number for each recorded transaction (used for booking refunded transactions)

@@ -5,11 +5,12 @@ import os
 
 
 # Load the .env file and get the access token for fortnox
-load_dotenv('./.env')
-access_token = os.getenv('fortnox_access_token')
+
 
 # 
 def createVoucher(creation_date, description, transferId, value, debit_account, credit_account):
+    load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")    
+    access_token = os.getenv('fortnox_access_token')
 
     # Define the API endpoint URL for creating vouchers
     api_url = "https://api.fortnox.se/3/vouchers"
@@ -67,3 +68,9 @@ def createVoucher(creation_date, description, transferId, value, debit_account, 
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
         return e
+    
+
+
+#test
+#voucher = createVoucher("2023-08-01", "test", "test", 100, 6230, 1941)
+#print(voucher)

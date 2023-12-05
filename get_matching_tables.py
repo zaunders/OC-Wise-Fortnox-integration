@@ -2,9 +2,14 @@ import requests
 import json
 
 
-def getMatchingTable ():
-    # Define the URL of the JSON file on GitHub
-    url = "https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/fortnox_account_lookup.json"
+def getMatchingTables(table_name):
+    
+    if table_name == "fortnox_account_lookup":
+        # URL of the fortnox lookup for which account to book expense on
+        url = "https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/fortnox_account_lookup.json"
+    elif table_name == "OC_slug_lookup":
+        # URL of the fortnox lookup for which account to book expense on
+        url = "https://raw.githubusercontent.com/zaunders/OC-Wise-Fortnox-integration/main/OC_slug_lookup.json"
 
     try:
         # Fetch the JSON data from the URL

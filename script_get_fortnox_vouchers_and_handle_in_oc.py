@@ -22,6 +22,7 @@ processed_vouchers = np.load(f'{relative_path}processed_vouchers.npy')
 vouchers_with_info = []
 
 
+
 all_vouchers = getVouchers(0)
 requests_done += 1
 # parse the response and create an array that holds for each voucher the voucher number
