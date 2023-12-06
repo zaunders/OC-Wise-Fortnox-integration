@@ -1,24 +1,10 @@
 
 [
-{"name": "Dream Grants", "account": 4010},
-{"name": "the-borderland-2022", "account": 4010},
-{"name": "dream-grants-2023", "account": 4010},
-{"name": "Infrastructure group grants", "account": 4011},
-{"name": "Fund 51,52,53", "account": 4012},
-{"name": "Wristbands", "account": 4030},
-{"name": "Location rent", "account": 5010},
-{"name": "Container storage", "account": 5011},
-{"name": "Fire Safety Equipment", "account": 5012},
-{"name": "Other location costs", "account": 5013},
-{"name": "Electricity", "account": 5020},
-{"name": "Power", "account": 5020},
-{"name": "Relocation", "account": 5090},
-{"name": "Toilets", "account": 5140},
-{"name": "Water", "account": 5160},
-{"name": "Trash 2 Treasure", "account": 5170},
-{"name": "Radios", "account": 5410},
-{"name": "Server costs", "account": 6230},
-{"name": "Insurance", "account": 6310},
-{"name": "Administrative Fees", "account": 6490},
-{"name": "Bank Fees", "account": 6570}
+{"word": "infrastructure", "slug": "Infrastructure-2023"},
+{"word": "water", "slug": "Infrastructure-2023"},
+{"word": "toilets", "slug": "Infrastructure-2023"},
+{"word": "dream", "slug": "dream-grants-2023"},
+{"word": "overhead", "slug": "org-overhead-costs"},
+{"word": "server", "slug": "org-overhead-costs"},
+{"word": "relocation", "slug": "relocation-fund"}
 ]
