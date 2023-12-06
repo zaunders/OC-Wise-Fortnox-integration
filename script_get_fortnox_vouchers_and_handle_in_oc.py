@@ -8,7 +8,7 @@ from f_to_oc_get_vouchers import getVouchers
 from fortnox_get_voucher_by_voucher_number import getVoucherByVoucherNumber
 from f_to_oc_process_bank_account_voucher import process_bankaccount_voucher
 import time
-
+from send_fortnox_to_oc_finished import sendFinishedOC
 
 print("Starting script")
 # Load the .env file and get the access token for fortnox
@@ -21,7 +21,8 @@ requests_done = 0
 processed_vouchers = np.load(f'{relative_path}processed_vouchers.npy')
 vouchers_with_info = []
 
-
+# declaring empty list to track all expenses and funds created
+created_expenses_html=[]
 
 all_vouchers = getVouchers(0)
 requests_done += 1
@@ -81,6 +82,8 @@ for current_voucher in all_vouchers_array:
             requests_done += 1
             if success == "expenses_processed":
                 # Add the voucher as being processed to the list of processed vouchers so that it will not be done again
+                new_expense = "Fortnox voucher: <b>"+data["Voucher"]["VoucherNumber"]+"</b>, with the description: <b>"+data["Voucher"]["Description"]+"was successfully processed."
+                created_expenses_html.append(new_expense)
                 new_voucher = np.array([current_voucher])
                 processed_vouchers = np.concatenate((processed_vouchers, new_voucher))
                 np.save(f'{relative_path}processed_vouchers.npy', processed_vouchers)
@@ -91,5 +94,7 @@ for current_voucher in all_vouchers_array:
             processed_vouchers = np.concatenate((processed_vouchers, new_voucher))
             np.save(f'{relative_path}processed_vouchers.npy', processed_vouchers)
             
-
+# email summary of expenses created
+if created_expenses_html != []:
+    sendFinishedOC(created_expenses_html)
 

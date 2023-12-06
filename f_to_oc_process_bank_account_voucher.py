@@ -38,9 +38,15 @@ def process_bankaccount_voucher(voucher_number):
                         print("fund added with description:")
                         print(row["Description"])
                     else:
-                        expense_added = createAndProcessExpense(expense_project_slug, int(100*row["Debit"]), voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
-                        print("expense added with description:")
-                        print(row["Description"])
+                        # Do not treat transfers from bank account to wise as expense for OC
+                        if row["Account"] != 1941:
+                            for line in OC_slug_lookup:
+                                if line.get("word").lower() in voucher["Voucher"]["Description"].lower():
+                                    expense_project_slug = line.get("slug")
+                                    break
+                            expense_added = createAndProcessExpense(expense_project_slug, int(100*row["Debit"]), voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
+                            print("expense added with description:")
+                            print(row["Description"])
             
     
     return "expenses_processed"

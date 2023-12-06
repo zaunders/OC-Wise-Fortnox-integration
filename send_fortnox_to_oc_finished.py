@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv 
 
-def sendFinished(html_list):
+def sendFinishedOC(html_list):
     # Load the .env file and get the access token for fortnox
     load_dotenv('./.env')
     access_token = os.getenv('postmark_api_token')
@@ -29,7 +29,7 @@ def sendFinished(html_list):
         "From": "viktor@darksoil.studio",  # Replace with your sender email address
         "To": summary_email_recipient,  # Replace with the recipient email address
         "Subject": "Script running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" ran successfully!",
-        "HtmlBody": "The integration script found the following wise transactions and created respective vouchers in Fortnox:<br><br>"+html+"<br><br>Have a good day!"
+        "HtmlBody": "The integration script read and processed the follwing vouchers:<br><br>"+html+"<br><br>Have a good day!"
 
     }
 
@@ -38,7 +38,7 @@ def sendFinished(html_list):
 
     # Check the response
     if response.status_code == 200:
-        print("Summary email sent successfully!")
+        print("Summary email fortnox to OC sent successfully!")
     else:
         print("Failed to send email:", response.text)
 
