@@ -26,7 +26,8 @@ def createAndProcessExpense(slug, amount, description):
         # Pay the expense
         paid = payExpense(test)
 
-        print ("The expense was created, approved and paid successfully, with id: " + test)
+        print ("The expense was created, approved and paid successfully, with amount: "+amount+", at project with slug: "+slug)
         return test
 
-#test = createandprocessexpense(slug, amount, description)
+#test = createAndProcessExpense("granslandet", "10000000", "reduce funds")
+#print(test)

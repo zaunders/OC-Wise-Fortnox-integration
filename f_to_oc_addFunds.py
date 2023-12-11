@@ -6,6 +6,8 @@ import os
 def addFunds(amount, collective_slug, description):
     load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     accessToken = os.getenv("oc_access_token")
+    OC_personal_development_token = os.getenv("OC_personal_development_token")
+    
 
     # Set the headers with the API key if needed
     headers = {
@@ -14,7 +16,7 @@ def addFunds(amount, collective_slug, description):
     }
     
     # Define the GraphQL endpoint URL
-    graphql_url = f"https://staging.opencollective.com/api/graphql/v2"
+    graphql_url = f"https://staging.opencollective.com/api/graphql/v2?personalToken={OC_personal_development_token}"
 
 
     mutation = """
@@ -48,7 +50,7 @@ def addFunds(amount, collective_slug, description):
     # Requesting to create the expense at the account with the slug 
     try:
         # Send a POST request to the GraphQL endpoint
-        response = requests.post(graphql_url, json=payload, headers=headers)
+        response = requests.post(graphql_url, json=payload)
 
         # Check if the request was successful (HTTP status code 200)
         if response.status_code == 200:

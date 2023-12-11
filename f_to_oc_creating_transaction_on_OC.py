@@ -7,6 +7,7 @@ import os
 def createOCexpense(slug, amount, description):
     load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     accessToken = os.getenv("oc_access_token")
+    OC_personal_development_token = os.getenv("OC_personal_development_token")
 
     # Set the headers with the API key if needed
     headers = {
@@ -15,7 +16,7 @@ def createOCexpense(slug, amount, description):
     }
 
     # Define the GraphQL endpoint URL
-    graphql_url = f"https://staging.opencollective.com/api/graphql/v2"
+    graphql_url = f"https://staging.opencollective.com/api/graphql/v2?personalToken={OC_personal_development_token}"
 
 
     # check that there are sufficient funds in OC
@@ -64,11 +65,12 @@ def createOCexpense(slug, amount, description):
     # Requesting to create the expense at the account with the slug 
     try:
         # Send a POST request to the GraphQL endpoint
-        response = requests.post(graphql_url, json=payload, headers=headers)
+        response = requests.post(graphql_url, json=payload)
 
         # Check if the request was successful (HTTP status code 200)
         if response.status_code == 200:
             data = response.json()
+            #print(data)
             expense_id = data['data']['createExpense']['id']
             #print("The expense was created successfully with id:"+expense_id)
             return expense_id

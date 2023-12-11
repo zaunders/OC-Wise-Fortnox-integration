@@ -5,6 +5,7 @@ import os
 def checkBalance(slug):
     load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     accessToken = os.getenv("oc_access_token")
+    OC_personal_development_token = os.getenv("OC_personal_development_token")
     
     headers = {
         "authorization": f"Bearer {accessToken}",
@@ -12,7 +13,7 @@ def checkBalance(slug):
     }
 
     # Define the GraphQL endpoint URL
-    graphql_url = f"https://staging.opencollective.com/api/graphql/v2"
+    graphql_url = f"https://staging.opencollective.com/api/graphql/v2?personalToken={OC_personal_development_token}"
 
 
     query = """
@@ -40,13 +41,14 @@ def checkBalance(slug):
     # Requesting to create the expense at the account with the slug 
     try:
         # Send a POST request to the GraphQL endpoint
-        response = requests.post(graphql_url, json=payload, headers=headers)
+        response = requests.post(graphql_url, json=payload)
 
         # Check if the request was successful (HTTP status code 200)
         if response.status_code == 200:
             data = response.json()
+            #print(data)
             valueInCents = data['data']['project']['stats']['balance']['valueInCents']
-            print("The project balance is: " + str(valueInCents))
+            print("The project with slug: "+slug+" has the balance: " + str(valueInCents))
             return valueInCents
 
         else:
@@ -59,5 +61,5 @@ def checkBalance(slug):
         print(f"An error occurred: {e}")
         return e
 
-result = checkBalance("infrastructure-2023")
-print(result)
+#result = checkBalance("infrastructure-2023")
+#print(result)

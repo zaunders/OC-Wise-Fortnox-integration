@@ -1,2 +1,5 @@
 .env
 booked_transfers.npy
+processed_vouchers.npy
+refunded_transfers_booked.npy
+unmatched_transfers_handled.npy

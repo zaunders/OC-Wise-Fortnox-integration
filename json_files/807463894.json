@@ -1,0 +1,11 @@
+{
+    "transferId": "807463894",
+    "createDate": "2023-09-18 08:46:50",
+    "value": 18861.0,
+    "AccountSlug": "org-overhead-costs",
+    "Description": "Talk AWS server costs",
+    "LegacyId": 161710,
+    "Tags": "",
+    "invoiceFiles": "",
+    "Items": "https://opencollective-production.s3.us-west-1.amazonaws.com/expense-item/57c27b74-b83d-4e2f-b748-3927b7c61e0e/summary.pdf; "
+}

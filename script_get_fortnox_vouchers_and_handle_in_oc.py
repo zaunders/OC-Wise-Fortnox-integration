@@ -70,7 +70,7 @@ for current_voucher in all_vouchers_array:
 
 
         for row in data["Voucher"]["VoucherRows"]:
-            print(row)
+            #print(row)
             if row["Account"] == 1940:
                 needs_further_process = True
                 print("bank account row found")
@@ -82,7 +82,7 @@ for current_voucher in all_vouchers_array:
             requests_done += 1
             if success == "expenses_processed":
                 # Add the voucher as being processed to the list of processed vouchers so that it will not be done again
-                new_expense = "Fortnox voucher: <b>"+data["Voucher"]["VoucherNumber"]+"</b>, with the description: <b>"+data["Voucher"]["Description"]+"was successfully processed."
+                new_expense = "Fortnox voucher: <b>"+str(data["Voucher"]["VoucherNumber"])+"</b>, with the description: <b>"+data["Voucher"]["Description"]+" was successfully processed."
                 created_expenses_html.append(new_expense)
                 new_voucher = np.array([current_voucher])
                 processed_vouchers = np.concatenate((processed_vouchers, new_voucher))

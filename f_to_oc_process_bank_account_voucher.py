@@ -35,8 +35,8 @@ def process_bankaccount_voucher(voucher_number):
                     #debit_rows_info.append((row["Account"], row["Debit"], row["Description"]))
                     if row["Account"] == 1940:
                         fund_addition_data = addFunds(int(100*row["Debit"]), collective_slug_for_funds, voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
-                        print("fund added with description:")
-                        print(row["Description"])
+                        print(row["Debit"]+" SEK added with description:")
+                        print(voucher["Voucher"]["Description"])
                     else:
                         # Do not treat transfers from bank account to wise as expense for OC
                         if row["Account"] != 1941:
@@ -46,7 +46,7 @@ def process_bankaccount_voucher(voucher_number):
                                     break
                             expense_added = createAndProcessExpense(expense_project_slug, int(100*row["Debit"]), voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
                             print("expense added with description:")
-                            print(row["Description"])
+                            print(voucher["Voucher"]["Description"])
             
     
     return "expenses_processed"
