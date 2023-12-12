@@ -18,7 +18,7 @@ def checkBalance(slug):
 
     query = """
     query checkBalance($slug: String!) {
-        project(
+        account(
             slug: $slug
         ) {
             stats {
@@ -47,7 +47,7 @@ def checkBalance(slug):
         if response.status_code == 200:
             data = response.json()
             #print(data)
-            valueInCents = data['data']['project']['stats']['balance']['valueInCents']
+            valueInCents = data['data']['account']['stats']['balance']['valueInCents']
             print("The project with slug: "+slug+" has the balance: " + str(valueInCents))
             return valueInCents
 
@@ -61,5 +61,5 @@ def checkBalance(slug):
         print(f"An error occurred: {e}")
         return e
 
-#result = checkBalance("infrastructure-2023")
+#result = checkBalance("granslandet")
 #print(result)
