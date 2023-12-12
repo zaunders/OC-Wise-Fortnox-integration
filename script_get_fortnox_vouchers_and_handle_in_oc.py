@@ -71,6 +71,7 @@ for current_voucher in all_vouchers_array:
 
         for row in data["Voucher"]["VoucherRows"]:
             #print(row)
+            # Only process the vouchers that are connected to the bank account
             if row["Account"] == 1940:
                 needs_further_process = True
                 print("bank account row found")
@@ -80,7 +81,7 @@ for current_voucher in all_vouchers_array:
             # Handle voucher by either adding the funds or creating an expense from the voucher
             success = process_bankaccount_voucher(data["Voucher"]["VoucherNumber"])
             requests_done += 1
-            if success == "expenses_processed":
+            if success == True:
                 # Add the voucher as being processed to the list of processed vouchers so that it will not be done again
                 new_expense = "Fortnox voucher: <b>"+str(data["Voucher"]["VoucherNumber"])+"</b>, with the description: <b>"+data["Voucher"]["Description"]+"</b> was successfully processed."
                 created_expenses_html.append(new_expense)

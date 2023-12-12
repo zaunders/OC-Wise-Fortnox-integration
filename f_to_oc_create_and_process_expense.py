@@ -18,16 +18,17 @@ def createAndProcessExpense(slug, amount, description):
         return "Insufficient funds"
     else:
         # Create the expense
-        test = createOCexpense(slug, amount, description)
+        expense = createOCexpense(slug, amount, description)
 
         # Approve the expense
-        approved = approveExpense(test)
+        approved = approveExpense(expense)
 
         # Pay the expense
-        paid = payExpense(test)
+        paid = payExpense(expense)
 
-        print ("The expense was created, approved and paid successfully, with amount: "+amount+", at project with slug: "+slug)
-        return test
+        print ("The expense was created, approved and paid successfully, with amount: "+str(amount)+", at project with slug: "+slug)
+        #length of an id from open collective is 35 characters, that is being returned
+        return expense
 
 #test = createAndProcessExpense("granslandet", "10000000", "reduce funds")
 #print(test)

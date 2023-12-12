@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 def sendOcExpiring(daysLeft):
     # Load the .env file and get the access token for fortnox
-    load_dotenv('./.env')
+    load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     access_token = os.getenv('postmark_api_token')
     oc_token_email= os.getenv('oc_token_email')
 

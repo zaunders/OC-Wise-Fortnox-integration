@@ -1,0 +1,172 @@
+Fortnox tokens refreshed!
+starting wise transactions script..
+days since OC token was created: 28
+rows in wise completed:
+9
+All rows from OC:
+1475
+rows in joined list:
+8
+booked voucher: 104 with connected file: https://api.fortnox.se/3/voucherfileconnections/8b6ce1ed-41d0-4ad5-a59c-0c3555ede14e
+booked voucher: 105 with connected file: https://api.fortnox.se/3/voucherfileconnections/4a8c334b-e7d3-4391-a4a1-67589f8adbd6
+booked voucher: 106 with connected file: https://api.fortnox.se/3/voucherfileconnections/dee15864-5cbb-4c84-937b-e0b5bd20298d
+booked voucher: 107 with connected file: https://api.fortnox.se/3/voucherfileconnections/9138019e-8353-4868-b367-37a95e0347fa
+booked voucher: 108 with connected file: https://api.fortnox.se/3/voucherfileconnections/d288eb10-56c9-47c8-8a8f-bd6ca4d5ed4c
+booked voucher: 109 with connected file: https://api.fortnox.se/3/voucherfileconnections/6afd5265-f990-461c-9686-9ebb04be138e
+booked voucher: 110 with connected file: https://api.fortnox.se/3/voucherfileconnections/ad42a4c9-5ace-4330-8195-5f8c6464b974
+booked voucher: 111 with connected file: https://api.fortnox.se/3/voucherfileconnections/02d812bc-8357-4ff9-9fb5-62e3c29146f8
+Summary email sent successfully!
+Script ran successfully at: 2023-12-12
+-------------------------------------------------------------------------------------------------------
+
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]
+Voucher 1 already processed
+Voucher 2 already processed
+Voucher 3 already processed
+Voucher 4 already processed
+Voucher 5 already processed
+Processing voucher:
+6
+bank account row found
+Processing voucher:
+7
+bank account row found
+Processing voucher:
+8
+bank account row found
+Processing voucher:
+9
+bank account row found
+Processing voucher:
+10
+bank account row found
+Processing voucher:
+11
+bank account row found
+Processing voucher:
+12
+bank account row found
+Processing voucher:
+13
+bank account row found
+Processing voucher:
+14
+bank account row found
+Processing voucher:
+15
+bank account row found
+Processing voucher:
+16
+bank account row found
+Processing voucher:
+17
+bank account row found
+Processing voucher:
+18
+bank account row found
+Processing voucher:
+19
+bank account row found
+Processing voucher:
+20
+bank account row found
+Processing voucher:
+21
+bank account row found
+Voucher 22 already processed
+Voucher 23 already processed
+Voucher 24 already processed
+Voucher 25 already processed
+Processing voucher:
+26
+bank account row found
+Processing voucher:
+27
+bank account row found
+Voucher 28 already processed
+Voucher 29 already processed
+Voucher 30 already processed
+Voucher 31 already processed
+Processing voucher:
+32
+bank account row found
+Expense project slug not found for voucher 32
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"b3aa1b54-b9d1-4f75-9ee4-fcb81c3c8cb1","SubmittedAt":"2023-12-12T13:32:45.5288956Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Voucher 33 already processed
+Processing voucher:
+34
+bank account row found
+Expense project slug not found for voucher 34
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"cc78acc0-1e39-44a2-bf55-8660aef01ae9","SubmittedAt":"2023-12-12T13:32:46.6325699Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Voucher 35 already processed
+Voucher 36 already processed
+Voucher 37 already processed
+Voucher 38 already processed
+Voucher 39 already processed
+Voucher 40 already processed
+Voucher 41 already processed
+Voucher 42 already processed
+Voucher 43 already processed
+Voucher 44 already processed
+Voucher 45 already processed
+Voucher 46 already processed
+Voucher 47 already processed
+Voucher 48 already processed
+Processing voucher:
+49
+bank account row found
+Expense project slug not found for voucher 49
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"abfc39f9-e0be-404c-9e68-156ca3ec0a84","SubmittedAt":"2023-12-12T13:32:47.7898527Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Voucher 50 already processed
+Voucher 51 already processed
+Voucher 52 already processed
+Processing voucher:
+53
+bank account row found
+Expense project slug not found for voucher 53
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"34d6311a-8e76-47c9-ba1c-05eb343978bf","SubmittedAt":"2023-12-12T13:32:48.8649779Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Processing voucher:
+54
+bank account row found
+Expense project slug not found for voucher 54
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"8a010eaf-2247-4ff4-87a6-b7b7db86ce54","SubmittedAt":"2023-12-12T13:32:49.8772704Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Processing voucher:
+55
+bank account row found
+Expense project slug not found for voucher 55
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"1756ce01-b07b-4383-a61d-3acdcef380dc","SubmittedAt":"2023-12-12T13:32:50.9143598Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Processing voucher:
+56
+bank account row found
+Expense project slug not found for voucher 56
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"c8898262-ed95-45c3-9a64-18a7d351e6eb","SubmittedAt":"2023-12-12T13:32:51.9084667Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Voucher 57 already processed
+Processing voucher:
+58
+bank account row found
+Expense project slug not found for voucher 58
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"354c35ff-6d01-4f82-b437-086eee58321b","SubmittedAt":"2023-12-12T13:32:58.0100893Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Processing voucher:
+59
+bank account row found
+Expense project slug not found for voucher 59
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"2f58a202-f836-4cea-9bd8-4958ab81199a","SubmittedAt":"2023-12-12T13:32:59.0898265Z","To":"zaunders@gmail.com,viktor@growhub.se"}
+Voucher 60 already processed
+Voucher 61 already processed
+Processing voucher:
+62
+bank account row found
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_fortnox_vouchers_and_handle_in_oc.py", line 82, in <module>
+    success = process_bankaccount_voucher(data["Voucher"]["VoucherNumber"])
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_process_bank_account_voucher.py", line 60, in process_bankaccount_voucher
+    expense_added = createAndProcessExpense(expense_project_slug, int(100*row["Debit"]), voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_create_and_process_expense.py", line 14, in createAndProcessExpense
+    balance = checkBalance(slug)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_check_balance.py", line 50, in checkBalance
+    valueInCents = data['data']['project']['stats']['balance']['valueInCents']
+TypeError: 'NoneType' object is not subscriptable
+script reading bookings from fortnox and creating OC expenses finished!

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 def sendFinished(html_list):
     # Load the .env file and get the access token for fortnox
-    load_dotenv('./.env')
+    load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     access_token = os.getenv('postmark_api_token')
     summary_email_recipient= os.getenv('summary_email_recipient')
 

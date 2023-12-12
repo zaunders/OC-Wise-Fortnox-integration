@@ -7,8 +7,10 @@ from dotenv import load_dotenv
 
 def sendErrorEmail(error_message):
     # Load the .env file and get the access token for fortnox
-    load_dotenv('./.env')
+    load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")
     access_token = os.getenv('postmark_api_token')
+    error_email_recipient= os.getenv('error_email_recipient')
+
 
     # Define the URL of the Postmark API endpoint for sending emails
     api_url = "https://api.postmarkapp.com/email"
@@ -23,7 +25,7 @@ def sendErrorEmail(error_message):
     # Create the payload for the email
     payload = {
         "From": "viktor@darksoil.studio",  # Replace with your sender email address
-        "To": "viktor@darksoil.studio",  # Replace with the recipient email address
+        "To": error_email_recipient,  # Replace with the recipient email address
         "Subject": "Script running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" has an error",
         "TextBody": error_message
     }
