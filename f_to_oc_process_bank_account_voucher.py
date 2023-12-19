@@ -28,7 +28,7 @@ def process_bankaccount_voucher(voucher_number):
     collective_slug_for_funds = "granslandet"
     expense_project_slug_found = False
     expense_project_slug = ""
-    voucher_processed = False
+    return_value = "unprocessed"
 
     # Check to see that description is found in lookup table
     for line in OC_slug_lookup:
@@ -44,7 +44,7 @@ def process_bankaccount_voucher(voucher_number):
                     # Check if the debit is on the bank account side, that means money coming in and should be added to funds for gränslandet
                     if row["Account"] == 1940:
                         fund_addition_data = addFunds(int(100*row["Debit"]), collective_slug_for_funds, voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
-                        voucher_processed = True
+                        return_value = "fund added"
                         print(str(row["Debit"])+" SEK added with description:")
                         print(voucher["Voucher"]["Description"])
                     else:
@@ -60,17 +60,22 @@ def process_bankaccount_voucher(voucher_number):
                                 expense_added = createAndProcessExpense(expense_project_slug, int(100*row["Debit"]), voucher["Voucher"]["Description"]+" (from voucher "+str(voucher_number)+")")
                                 # length of an id from open collective is 35 characters, if 35 we can assume success
                                 if len(expense_added) == 35:
-                                    voucher_processed = True
+                                    return_value = "expense created"
                                     print("expense added with description:")
                                     print(voucher["Voucher"]["Description"])
                                 elif expense_added == "Insufficient funds":
                                     print("Insufficient funds for expense "+voucher["Voucher"]["Description"])
                                     sendErrorEmail("Insufficient funds for processing "+voucher["Voucher"]["Description"])
+                                    return_value = "Insufficient funds"
                             else:
                                 print("Expense project slug not found for voucher "+str(voucher_number))
                                 sendErrorEmail("Expense project slug not found for voucher "+str(voucher_number))
+                        else:
+                            # row is a debit on wise account, which is money going out but already handled on OC
+                            return_value = "wise"
+                            
 
-    return voucher_processed
+    return return_value
 
 #testing function, voucher 30 (expense) and 26 funds
 #test = process_bankaccount_voucher(46)

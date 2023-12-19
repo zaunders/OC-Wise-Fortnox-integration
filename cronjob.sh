@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Cronjob running at: $(date)"
 
 # refresh the fortnox token
 python3 /home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/fortnox_exchange_refresh_token.py

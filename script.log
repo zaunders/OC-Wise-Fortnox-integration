@@ -170,3 +170,1221 @@ Traceback (most recent call last):
     valueInCents = data['data']['project']['stats']['balance']['valueInCents']
 TypeError: 'NoneType' object is not subscriptable
 script reading bookings from fortnox and creating OC expenses finished!
+Fortnox tokens refreshed!
+starting wise transactions script..
+days since OC token was created: 29
+rows in wise completed:
+9
+All rows from OC:
+1475
+rows in joined list:
+8
+Script ran successfully at: 2023-12-13
+-------------------------------------------------------------------------------------------------------
+
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]
+Processing voucher:
+1
+Processing voucher:
+2
+Processing voucher:
+3
+Processing voucher:
+4
+Processing voucher:
+5
+Processing voucher:
+6
+bank account row found
+Processing voucher:
+7
+bank account row found
+Processing voucher:
+8
+bank account row found
+Processing voucher:
+9
+bank account row found
+Processing voucher:
+10
+bank account row found
+Processing voucher:
+11
+bank account row found
+Processing voucher:
+12
+bank account row found
+Processing voucher:
+13
+bank account row found
+Processing voucher:
+14
+bank account row found
+Processing voucher:
+15
+bank account row found
+Processing voucher:
+16
+bank account row found
+Processing voucher:
+17
+bank account row found
+Processing voucher:
+18
+bank account row found
+Processing voucher:
+19
+bank account row found
+Processing voucher:
+20
+bank account row found
+Processing voucher:
+21
+bank account row found
+Processing voucher:
+22
+Processing voucher:
+23
+Processing voucher:
+24
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2145.71 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+25
+bank account row found
+Successfully added funds to collective with slug: granslandet
+100356.58 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+26
+bank account row found
+bank account row found
+Successfully added funds to collective with slug: granslandet
+4314723.39 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+27
+bank account row found
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2081511.88 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+28
+Processing voucher:
+29
+Processing voucher:
+30
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690814000
+The expense was created, approved and paid successfully, with amount: 85205, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+31
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 604379968
+The expense was created, approved and paid successfully, with amount: 45000, at project with slug: Infrastructure-2023
+expense added with description:
+infrastructure
+Processing voucher:
+32
+bank account row found
+The project with slug: org-overhead-costs has the balance: 86867010
+The expense was created, approved and paid successfully, with amount: 24186, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+33
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690728795
+The expense was created, approved and paid successfully, with amount: 121507, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+34
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 604334968
+The expense was created, approved and paid successfully, with amount: 4623033, at project with slug: Infrastructure-2023
+expense added with description:
+trash 2 treasure
+Processing voucher:
+35
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690607288
+The expense was created, approved and paid successfully, with amount: 75212, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+36
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690532076
+The expense was created, approved and paid successfully, with amount: 16250, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+37
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 599711935
+The expense was created, approved and paid successfully, with amount: 8000000, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+38
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 591711935
+The expense was created, approved and paid successfully, with amount: 576979, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+39
+bank account row found
+The project with slug: org-overhead-costs has the balance: 86842824
+The expense was created, approved and paid successfully, with amount: 1103349, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+40
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 591134956
+The expense was created, approved and paid successfully, with amount: 270000, at project with slug: Infrastructure-2023
+expense added with description:
+water
+Processing voucher:
+41
+bank account row found
+The project with slug: org-overhead-costs has the balance: 85739475
+The expense was created, approved and paid successfully, with amount: 210091, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+42
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690515826
+The expense was created, approved and paid successfully, with amount: 404929, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+43
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690110897
+The expense was created, approved and paid successfully, with amount: 83646, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+44
+bank account row found
+The project with slug: org-overhead-costs has the balance: 85529384
+The expense was created, approved and paid successfully, with amount: 555090, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+45
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 690027251
+The expense was created, approved and paid successfully, with amount: 534550, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+46
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 689492701
+The expense was created, approved and paid successfully, with amount: 4013696, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+47
+bank account row found
+The project with slug: org-overhead-costs has the balance: 84974294
+The expense was created, approved and paid successfully, with amount: 133221, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+48
+bank account row found
+The project with slug: org-overhead-costs has the balance: 84841073
+The expense was created, approved and paid successfully, with amount: 530111, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+49
+bank account row found
+The project with slug: org-overhead-costs has the balance: 84310962
+The expense was created, approved and paid successfully, with amount: 733300, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+50
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2672 SEK added with description:
+dream
+Processing voucher:
+51
+bank account row found
+The project with slug: org-overhead-costs has the balance: 83577662
+The expense was created, approved and paid successfully, with amount: 517833, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+52
+bank account row found
+The project with slug: org-overhead-costs has the balance: 83059829
+The expense was created, approved and paid successfully, with amount: 575075, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+53
+bank account row found
+The project with slug: org-overhead-costs has the balance: 82484754
+The expense was created, approved and paid successfully, with amount: 125000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+54
+bank account row found
+The project with slug: org-overhead-costs has the balance: 82359754
+The expense was created, approved and paid successfully, with amount: 80000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+55
+bank account row found
+The project with slug: org-overhead-costs has the balance: 82279754
+The expense was created, approved and paid successfully, with amount: 32500, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+56
+bank account row found
+Expense project slug not found for voucher 56
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"143297c4-78ef-4df4-9bc1-18dee0f28cf6","SubmittedAt":"2023-12-13T13:34:18.4042614Z","To":"zaunders@gmail.com"}
+Processing voucher:
+57
+bank account row found
+Successfully added funds to collective with slug: granslandet
+20665 SEK added with description:
+återbetalning
+Processing voucher:
+58
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 590864956
+The expense was created, approved and paid successfully, with amount: 500000, at project with slug: Infrastructure-2023
+expense added with description:
+container
+Processing voucher:
+59
+bank account row found
+The project with slug: org-overhead-costs has the balance: 82247254
+The expense was created, approved and paid successfully, with amount: 1740600, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+60
+bank account row found
+The project with slug: org-overhead-costs has the balance: 80506654
+The expense was created, approved and paid successfully, with amount: 1223457, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+61
+bank account row found
+The project with slug: org-overhead-costs has the balance: 79283197
+The expense was created, approved and paid successfully, with amount: 452110, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+62
+bank account row found
+The project with slug: granslandet has the balance: 1549609281
+The expense was created, approved and paid successfully, with amount: 100000000, at project with slug: granslandet
+expense added with description:
+BLL (i anspråk)
+Processing voucher:
+63
+bank account row found
+The project with slug: granslandet has the balance: 1449609281
+The expense was created, approved and paid successfully, with amount: 50000000, at project with slug: granslandet
+expense added with description:
+BLL (i anspråk)
+Processing voucher:
+64
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 590364956
+The expense was created, approved and paid successfully, with amount: 50000000, at project with slug: Infrastructure-2023
+expense added with description:
+land rent
+Processing voucher:
+65
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 540364956
+The expense was created, approved and paid successfully, with amount: 10000000, at project with slug: Infrastructure-2023
+expense added with description:
+land rent
+Processing voucher:
+66
+bank account row found
+The project with slug: granslandet has the balance: 1399609281
+The expense was created, approved and paid successfully, with amount: 2117400, at project with slug: granslandet
+expense added with description:
+BLL ( i anspråk)
+The project with slug: granslandet has the balance: 1397491881
+The expense was created, approved and paid successfully, with amount: 55, at project with slug: granslandet
+expense added with description:
+BLL ( i anspråk)
+Processing voucher:
+67
+bank account row found
+The project with slug: org-overhead-costs has the balance: 78831087
+The expense was created, approved and paid successfully, with amount: 635777, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+68
+bank account row found
+The project with slug: org-overhead-costs has the balance: 78195310
+The expense was created, approved and paid successfully, with amount: 634581, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+69
+bank account row found
+The project with slug: org-overhead-costs has the balance: 77560729
+The expense was created, approved and paid successfully, with amount: 507000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+70
+bank account row found
+The project with slug: org-overhead-costs has the balance: 77053729
+The expense was created, approved and paid successfully, with amount: 155056, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+71
+bank account row found
+Successfully added funds to collective with slug: granslandet
+94.45 SEK added with description:
+memberships
+Processing voucher:
+72
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 530364956
+The expense was created, approved and paid successfully, with amount: 65000000, at project with slug: Infrastructure-2023
+expense added with description:
+land rent
+Processing voucher:
+73
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 465364956
+The expense was created, approved and paid successfully, with amount: 1739500, at project with slug: Infrastructure-2023
+expense added with description:
+wristbands
+Processing voucher:
+74
+bank account row found
+The project with slug: granslandet has the balance: 1397501271
+The expense was created, approved and paid successfully, with amount: 3001050, at project with slug: granslandet
+expense added with description:
+Fund, Co2 offsetting
+Processing voucher:
+75
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 463625456
+The expense was created, approved and paid successfully, with amount: 5800000, at project with slug: Infrastructure-2023
+expense added with description:
+container
+Processing voucher:
+76
+bank account row found
+The project with slug: org-overhead-costs has the balance: 76898673
+The expense was created, approved and paid successfully, with amount: 158484, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+77
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 457825456
+The expense was created, approved and paid successfully, with amount: 958920, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+78
+bank account row found
+The project with slug: granslandet has the balance: 1394500221
+The expense was created, approved and paid successfully, with amount: 71600, at project with slug: granslandet
+expense added with description:
+memberships
+Processing voucher:
+79
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 456866536
+The expense was created, approved and paid successfully, with amount: 12981300, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+80
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 443885236
+The expense was created, approved and paid successfully, with amount: 1575600, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+81
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 442309636
+The expense was created, approved and paid successfully, with amount: 884400, at project with slug: Infrastructure-2023
+expense added with description:
+vehicles
+Processing voucher:
+82
+bank account row found
+The project with slug: org-overhead-costs has the balance: 76740189
+The expense was created, approved and paid successfully, with amount: 374400, at project with slug: org-overhead-costs
+expense added with description:
+insurance
+Processing voucher:
+83
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 685479005
+The expense was created, approved and paid successfully, with amount: 3765800, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+84
+bank account row found
+The project with slug: org-overhead-costs has the balance: 76365789
+The expense was created, approved and paid successfully, with amount: 1132008, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+85
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 441425236
+The expense was created, approved and paid successfully, with amount: 328100, at project with slug: Infrastructure-2023
+expense added with description:
+threshold/Other location cost
+Processing voucher:
+86
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 441097136
+The expense was created, approved and paid successfully, with amount: 10769400, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+87
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 430327736
+The expense was created, approved and paid successfully, with amount: 845000, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+88
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 429482736
+The expense was created, approved and paid successfully, with amount: 2080000, at project with slug: Infrastructure-2023
+expense added with description:
+vehicles
+Processing voucher:
+89
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 427402736
+The expense was created, approved and paid successfully, with amount: 953000, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+90
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 426449736
+The expense was created, approved and paid successfully, with amount: 3952900, at project with slug: Infrastructure-2023
+expense added with description:
+vehicles
+Processing voucher:
+91
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 422496836
+The expense was created, approved and paid successfully, with amount: 754100, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+92
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 421742736
+The expense was created, approved and paid successfully, with amount: 194500, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+93
+bank account row found
+The project with slug: org-overhead-costs has the balance: 75233781
+The expense was created, approved and paid successfully, with amount: 844976, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+94
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 421548236
+The expense was created, approved and paid successfully, with amount: 2391200, at project with slug: Infrastructure-2023
+expense added with description:
+trash
+Processing voucher:
+95
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 419157036
+The expense was created, approved and paid successfully, with amount: 1397300, at project with slug: Infrastructure-2023
+expense added with description:
+vehicles
+Processing voucher:
+96
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 417759736
+The expense was created, approved and paid successfully, with amount: 2045500, at project with slug: Infrastructure-2023
+expense added with description:
+toilets (changed from vehicles 2023-11-24)
+Processing voucher:
+97
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 415714236
+The expense was created, approved and paid successfully, with amount: 3794300, at project with slug: Infrastructure-2023
+expense added with description:
+trash
+Processing voucher:
+98
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 411919936
+The expense was created, approved and paid successfully, with amount: 2460000, at project with slug: Infrastructure-2023
+expense added with description:
+electricity
+Processing voucher:
+99
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 409459936
+The expense was created, approved and paid successfully, with amount: 700000, at project with slug: Infrastructure-2023
+expense added with description:
+container
+Processing voucher:
+100
+bank account row found
+Successfully added funds to collective with slug: granslandet
+669.9 SEK added with description:
+dream
+Processing voucher:
+101
+bank account row found
+Successfully added funds to collective with slug: granslandet
+934.7 SEK added with description:
+dream
+Processing voucher:
+102
+bank account row found
+The project with slug: org-overhead-costs has the balance: 74388805
+The expense was created, approved and paid successfully, with amount: 513716, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+103
+bank account row found
+The project with slug: org-overhead-costs has the balance: 73875089
+The expense was created, approved and paid successfully, with amount: 141069, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+104
+Processing voucher:
+105
+Processing voucher:
+106
+Processing voucher:
+107
+Processing voucher:
+108
+Processing voucher:
+109
+Processing voucher:
+110
+Processing voucher:
+111
+Summary email fortnox to OC sent successfully!
+script reading bookings from fortnox and creating OC expenses finished!
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f8b84f89900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='apps.fortnox.se', port=443): Max retries exceeded with url: /oauth-v1/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8b84f89900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/fortnox_exchange_refresh_token.py", line 30, in <module>
+    response = requests.post(token_url, headers=auth_header, data=data)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='apps.fortnox.se', port=443): Max retries exceeded with url: /oauth-v1/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8b84f89900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+starting wise transactions script..
+days since OC token was created: 31
+An error occurred: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /zaunders/OC-Wise-Fortnox-integration/main/fortnox_account_lookup.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc6dc6db70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+An error occurred: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc6dc6e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7efc6dc6e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc6dc6e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_wise_transactions_book_and_match.py", line 106, in <module>
+    response = requests.get(api_url, headers=headers, params={"offset": offset})
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc6dc6e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_wise_transactions_book_and_match.py", line 146, in <module>
+    sendErrorEmail(e)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/send_error_message_email.py", line 34, in sendErrorEmail
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 530, in request
+    prep = self.prepare_request(req)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 458, in prepare_request
+    p.prepare(
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 319, in prepare
+    self.prepare_body(data, files, json)
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 469, in prepare_body
+    body = complexjson.dumps(json)
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ConnectionError is not JSON serializable
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+An error occurred: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0bb8c75870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f0bb8c75870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0bb8c75870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_get_vouchers.py", line 29, in getVouchers
+    response = requests.get(api_url, headers=headers, params=params)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0bb8c75870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_fortnox_vouchers_and_handle_in_oc.py", line 27, in <module>
+    all_vouchers = getVouchers(0)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_get_vouchers.py", line 50, in getVouchers
+    sendErrorEmail(e)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/send_error_message_email.py", line 34, in sendErrorEmail
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 530, in request
+    prep = self.prepare_request(req)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 458, in prepare_request
+    p.prepare(
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 319, in prepare
+    self.prepare_body(data, files, json)
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 469, in prepare_body
+    body = complexjson.dumps(json)
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ConnectionError is not JSON serializable
+script reading bookings from fortnox and creating OC expenses finished!
+Fortnox tokens refreshed!
+starting wise transactions script..
+days since OC token was created: 34
+rows in wise completed:
+9
+All rows from OC:
+1475
+rows in joined list:
+8
+Script ran successfully at: 2023-12-18
+-------------------------------------------------------------------------------------------------------
+
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]
+Voucher 1 already processed
+Voucher 2 already processed
+Voucher 3 already processed
+Voucher 4 already processed
+Voucher 5 already processed
+Voucher 6 already processed
+Voucher 7 already processed
+Voucher 8 already processed
+Voucher 9 already processed
+Voucher 10 already processed
+Voucher 11 already processed
+Voucher 12 already processed
+Voucher 13 already processed
+Voucher 14 already processed
+Voucher 15 already processed
+Voucher 16 already processed
+Voucher 17 already processed
+Voucher 18 already processed
+Voucher 19 already processed
+Voucher 20 already processed
+Voucher 21 already processed
+Voucher 22 already processed
+Voucher 23 already processed
+Voucher 24 already processed
+Voucher 25 already processed
+Voucher 26 already processed
+Voucher 27 already processed
+Voucher 28 already processed
+Voucher 29 already processed
+Voucher 30 already processed
+Voucher 31 already processed
+Voucher 32 already processed
+Voucher 33 already processed
+Voucher 34 already processed
+Voucher 35 already processed
+Voucher 36 already processed
+Voucher 37 already processed
+Voucher 38 already processed
+Voucher 39 already processed
+Voucher 40 already processed
+Voucher 41 already processed
+Voucher 42 already processed
+Voucher 43 already processed
+Voucher 44 already processed
+Voucher 45 already processed
+Voucher 46 already processed
+Voucher 47 already processed
+Voucher 48 already processed
+Voucher 49 already processed
+Voucher 50 already processed
+Voucher 51 already processed
+Voucher 52 already processed
+Voucher 53 already processed
+Voucher 54 already processed
+Voucher 55 already processed
+Processing voucher:
+56
+bank account row found
+Expense project slug not found for voucher 56
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"6d53786c-ba83-4260-a8c8-5502527c1cf6","SubmittedAt":"2023-12-18T13:32:16.8265799Z","To":"zaunders@gmail.com"}
+Voucher 57 already processed
+Voucher 58 already processed
+Voucher 59 already processed
+Voucher 60 already processed
+Voucher 61 already processed
+Voucher 62 already processed
+Voucher 63 already processed
+Voucher 64 already processed
+Voucher 65 already processed
+Voucher 66 already processed
+Voucher 67 already processed
+Voucher 68 already processed
+Voucher 69 already processed
+Voucher 70 already processed
+Voucher 71 already processed
+Voucher 72 already processed
+Voucher 73 already processed
+Voucher 74 already processed
+Voucher 75 already processed
+Voucher 76 already processed
+Voucher 77 already processed
+Voucher 78 already processed
+Voucher 79 already processed
+Voucher 80 already processed
+Voucher 81 already processed
+Voucher 82 already processed
+Voucher 83 already processed
+Voucher 84 already processed
+Voucher 85 already processed
+Voucher 86 already processed
+Voucher 87 already processed
+Voucher 88 already processed
+Voucher 89 already processed
+Voucher 90 already processed
+Voucher 91 already processed
+Voucher 92 already processed
+Voucher 93 already processed
+Voucher 94 already processed
+Voucher 95 already processed
+Voucher 96 already processed
+Voucher 97 already processed
+Voucher 98 already processed
+Voucher 99 already processed
+Voucher 100 already processed
+Voucher 101 already processed
+Voucher 102 already processed
+Voucher 103 already processed
+Voucher 104 already processed
+Voucher 105 already processed
+Voucher 106 already processed
+Voucher 107 already processed
+Voucher 108 already processed
+Voucher 109 already processed
+Voucher 110 already processed
+Voucher 111 already processed
+script reading bookings from fortnox and creating OC expenses finished!
+Cronjob running at: tis 19 dec 2023 14:44:55 CET
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f8755061900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='apps.fortnox.se', port=443): Max retries exceeded with url: /oauth-v1/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8755061900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/fortnox_exchange_refresh_token.py", line 30, in <module>
+    response = requests.post(token_url, headers=auth_header, data=data)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='apps.fortnox.se', port=443): Max retries exceeded with url: /oauth-v1/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8755061900>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+starting wise transactions script..
+days since OC token was created: 35
+An error occurred: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /zaunders/OC-Wise-Fortnox-integration/main/fortnox_account_lookup.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3dfca5db70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+An error occurred: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3dfca5e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3dfca5e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3dfca5e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_wise_transactions_book_and_match.py", line 106, in <module>
+    response = requests.get(api_url, headers=headers, params={"offset": offset})
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.transferwise.com', port=443): Max retries exceeded with url: /v1/transfers?profile=25518118&limit=100&createdDateStart=2023-09-10&createdDateEnd=2023-09-30&offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3dfca5e6b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_wise_transactions_book_and_match.py", line 146, in <module>
+    sendErrorEmail(e)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/send_error_message_email.py", line 34, in sendErrorEmail
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 530, in request
+    prep = self.prepare_request(req)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 458, in prepare_request
+    p.prepare(
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 319, in prepare
+    self.prepare_body(data, files, json)
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 469, in prepare_body
+    body = complexjson.dumps(json)
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ConnectionError is not JSON serializable
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+An error occurred: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faaabedd870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7faaabedd870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faaabedd870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_get_vouchers.py", line 29, in getVouchers
+    response = requests.get(api_url, headers=headers, params=params)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.fortnox.se', port=443): Max retries exceeded with url: /3/vouchers/?offset=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7faaabedd870>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/script_get_fortnox_vouchers_and_handle_in_oc.py", line 27, in <module>
+    all_vouchers = getVouchers(0)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/f_to_oc_get_vouchers.py", line 50, in getVouchers
+    sendErrorEmail(e)
+  File "/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/send_error_message_email.py", line 34, in sendErrorEmail
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 530, in request
+    prep = self.prepare_request(req)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 458, in prepare_request
+    p.prepare(
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 319, in prepare
+    self.prepare_body(data, files, json)
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 469, in prepare_body
+    body = complexjson.dumps(json)
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ConnectionError is not JSON serializable
+script reading bookings from fortnox and creating OC expenses finished!

@@ -79,12 +79,17 @@ for current_voucher in all_vouchers_array:
 
         if needs_further_process == True:
             # Handle voucher by either adding the funds or creating an expense from the voucher
-            success = process_bankaccount_voucher(data["Voucher"]["VoucherNumber"])
+            handled_response = process_bankaccount_voucher(data["Voucher"]["VoucherNumber"])
             requests_done += 1
-            if success == True:
+            if handled_response == "expense created" or handled_response == "fund added":
                 # Add the voucher as being processed to the list of processed vouchers so that it will not be done again
                 new_expense = "Fortnox voucher: <b>"+str(data["Voucher"]["VoucherNumber"])+"</b>, with the description: <b>"+data["Voucher"]["Description"]+"</b> was successfully processed."
                 created_expenses_html.append(new_expense)
+                new_voucher = np.array([current_voucher])
+                processed_vouchers = np.concatenate((processed_vouchers, new_voucher))
+                np.save(f'{relative_path}processed_vouchers.npy', processed_vouchers)
+            elif handled_response == "wise":
+                # Add the voucher as being processed to the list of processed vouchers so that it will not be done again
                 new_voucher = np.array([current_voucher])
                 processed_vouchers = np.concatenate((processed_vouchers, new_voucher))
                 np.save(f'{relative_path}processed_vouchers.npy', processed_vouchers)
