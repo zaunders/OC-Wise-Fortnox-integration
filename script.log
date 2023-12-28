@@ -1388,3 +1388,670 @@ Traceback (most recent call last):
     raise TypeError(f'Object of type {o.__class__.__name__} '
 TypeError: Object of type ConnectionError is not JSON serializable
 script reading bookings from fortnox and creating OC expenses finished!
+Cronjob running at: ons 20 dec 2023 14:32:01 CET
+Fortnox tokens refreshed!
+starting wise transactions script..
+days since OC token was created: 36
+rows in wise completed:
+9
+All rows from OC:
+1475
+rows in joined list:
+8
+booked voucher: 112 with connected file: https://api.fortnox.se/3/voucherfileconnections/ecf1adbc-9413-47bc-9371-da753376c085
+booked voucher: 113 with connected file: https://api.fortnox.se/3/voucherfileconnections/b34aafc1-3eb3-428d-918c-ac0201fff4d1
+booked voucher: 114 with connected file: https://api.fortnox.se/3/voucherfileconnections/cc6de50b-0071-4da4-b270-d486bd2eb77b
+booked voucher: 115 with connected file: https://api.fortnox.se/3/voucherfileconnections/1bf07598-74c8-4d27-868a-f4e0159b60d5
+booked voucher: 116 with connected file: https://api.fortnox.se/3/voucherfileconnections/4648c56d-3143-4f39-89ff-cadc6a943c9f
+booked voucher: 117 with connected file: https://api.fortnox.se/3/voucherfileconnections/6b0ab8e2-7b09-448f-8a0c-415e7ca2947f
+booked voucher: 118 with connected file: https://api.fortnox.se/3/voucherfileconnections/cdc6b231-4a16-46e1-9a7e-65516ff4c930
+booked voucher: 119 with connected file: https://api.fortnox.se/3/voucherfileconnections/ec28d7ba-fc13-47f3-97f1-cb6cea61ad11
+Summary email sent successfully!
+Script ran successfully at: 2023-12-20
+-------------------------------------------------------------------------------------------------------
+
+script taking wise transactions and booking them in fortnox finished!
+starting fortnox reading script..
+Starting script
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
+Processing voucher:
+1
+Processing voucher:
+2
+Processing voucher:
+3
+Processing voucher:
+4
+Processing voucher:
+5
+Processing voucher:
+6
+bank account row found
+Processing voucher:
+7
+bank account row found
+Processing voucher:
+8
+bank account row found
+Processing voucher:
+9
+bank account row found
+Processing voucher:
+10
+bank account row found
+Processing voucher:
+11
+bank account row found
+Processing voucher:
+12
+bank account row found
+Processing voucher:
+13
+bank account row found
+Processing voucher:
+14
+bank account row found
+Processing voucher:
+15
+bank account row found
+Processing voucher:
+16
+bank account row found
+Processing voucher:
+17
+bank account row found
+Processing voucher:
+18
+bank account row found
+Processing voucher:
+19
+bank account row found
+Processing voucher:
+20
+bank account row found
+Processing voucher:
+21
+bank account row found
+Processing voucher:
+22
+Processing voucher:
+23
+Processing voucher:
+24
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2145.71 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+25
+bank account row found
+Successfully added funds to collective with slug: granslandet
+100356.58 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+26
+bank account row found
+bank account row found
+Successfully added funds to collective with slug: granslandet
+4314723.39 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+27
+bank account row found
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2081511.88 SEK added with description:
+Från Stripe till bankkontot
+Processing voucher:
+28
+Processing voucher:
+29
+Processing voucher:
+30
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 172697615
+The expense was created, approved and paid successfully, with amount: 85205, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+31
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 13139904
+The expense was created, approved and paid successfully, with amount: 45000, at project with slug: Infrastructure-2023
+expense added with description:
+infrastructure
+Processing voucher:
+32
+bank account row found
+The project with slug: org-overhead-costs has the balance: 160601030
+The expense was created, approved and paid successfully, with amount: 24186, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+33
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 172612410
+The expense was created, approved and paid successfully, with amount: 121507, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+34
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 13094904
+The expense was created, approved and paid successfully, with amount: 4623033, at project with slug: Infrastructure-2023
+expense added with description:
+trash 2 treasure
+Processing voucher:
+35
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 172490903
+The expense was created, approved and paid successfully, with amount: 75212, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+36
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 172415691
+The expense was created, approved and paid successfully, with amount: 16250, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+37
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 8471871
+The expense was created, approved and paid successfully, with amount: 8000000, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+38
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 471871
+Insufficient funds
+Insufficient funds for expense toilets
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"c01557c0-4c07-4f5b-8953-80e3d4573e34","SubmittedAt":"2023-12-20T13:33:41.6928934Z","To":"zaunders@gmail.com"}
+Processing voucher:
+39
+bank account row found
+The project with slug: org-overhead-costs has the balance: 160576844
+The expense was created, approved and paid successfully, with amount: 1103349, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+40
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 471871
+The expense was created, approved and paid successfully, with amount: 270000, at project with slug: Infrastructure-2023
+expense added with description:
+water
+Processing voucher:
+41
+bank account row found
+The project with slug: org-overhead-costs has the balance: 159473495
+The expense was created, approved and paid successfully, with amount: 210091, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+42
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 172399441
+The expense was created, approved and paid successfully, with amount: 404929, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+43
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 171994512
+The expense was created, approved and paid successfully, with amount: 83646, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+44
+bank account row found
+The project with slug: org-overhead-costs has the balance: 159263404
+The expense was created, approved and paid successfully, with amount: 555090, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+45
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 171910866
+The expense was created, approved and paid successfully, with amount: 534550, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+46
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 171376316
+The expense was created, approved and paid successfully, with amount: 4013696, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+47
+bank account row found
+The project with slug: org-overhead-costs has the balance: 158708314
+The expense was created, approved and paid successfully, with amount: 133221, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+48
+bank account row found
+The project with slug: org-overhead-costs has the balance: 158575093
+The expense was created, approved and paid successfully, with amount: 530111, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+49
+bank account row found
+The project with slug: org-overhead-costs has the balance: 158044982
+The expense was created, approved and paid successfully, with amount: 733300, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+50
+bank account row found
+Successfully added funds to collective with slug: granslandet
+2672 SEK added with description:
+dream
+Processing voucher:
+51
+bank account row found
+The project with slug: org-overhead-costs has the balance: 157311682
+The expense was created, approved and paid successfully, with amount: 517833, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+52
+bank account row found
+The project with slug: org-overhead-costs has the balance: 156793849
+The expense was created, approved and paid successfully, with amount: 575075, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+53
+bank account row found
+The project with slug: org-overhead-costs has the balance: 156218774
+The expense was created, approved and paid successfully, with amount: 125000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+54
+bank account row found
+The project with slug: org-overhead-costs has the balance: 156093774
+The expense was created, approved and paid successfully, with amount: 80000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+55
+bank account row found
+The project with slug: org-overhead-costs has the balance: 156013774
+The expense was created, approved and paid successfully, with amount: 32500, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+56
+bank account row found
+Expense project slug not found for voucher 56
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"91746257-1662-48eb-8a54-2e9d84dc12d8","SubmittedAt":"2023-12-20T13:34:42.1981736Z","To":"zaunders@gmail.com"}
+Processing voucher:
+57
+bank account row found
+Successfully added funds to collective with slug: granslandet
+20665 SEK added with description:
+återbetalning
+Processing voucher:
+58
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense container
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"a008962d-9231-4e9d-8db3-b5cb7add955d","SubmittedAt":"2023-12-20T13:34:45.2230529Z","To":"zaunders@gmail.com"}
+Processing voucher:
+59
+bank account row found
+The project with slug: org-overhead-costs has the balance: 155981274
+The expense was created, approved and paid successfully, with amount: 1740600, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+60
+bank account row found
+The project with slug: org-overhead-costs has the balance: 154240674
+The expense was created, approved and paid successfully, with amount: 1223457, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+61
+bank account row found
+The project with slug: org-overhead-costs has the balance: 153017217
+The expense was created, approved and paid successfully, with amount: 452110, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+62
+bank account row found
+The project with slug: granslandet has the balance: 2835545556
+The expense was created, approved and paid successfully, with amount: 100000000, at project with slug: granslandet
+expense added with description:
+BLL (i anspråk)
+Processing voucher:
+63
+bank account row found
+The project with slug: granslandet has the balance: 2735545556
+The expense was created, approved and paid successfully, with amount: 50000000, at project with slug: granslandet
+expense added with description:
+BLL (i anspråk)
+Processing voucher:
+64
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense land rent
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"d399981b-e92f-4dd1-926c-b8dd3988c061","SubmittedAt":"2023-12-20T13:35:02.0834456Z","To":"zaunders@gmail.com"}
+Processing voucher:
+65
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense land rent
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"68a96cca-c67e-43f6-840b-798666a40bf7","SubmittedAt":"2023-12-20T13:35:04.1237001Z","To":"zaunders@gmail.com"}
+Processing voucher:
+66
+bank account row found
+The project with slug: granslandet has the balance: 2685545556
+The expense was created, approved and paid successfully, with amount: 2117400, at project with slug: granslandet
+expense added with description:
+BLL ( i anspråk)
+The project with slug: granslandet has the balance: 2683428156
+The expense was created, approved and paid successfully, with amount: 55, at project with slug: granslandet
+expense added with description:
+BLL ( i anspråk)
+Processing voucher:
+67
+bank account row found
+The project with slug: org-overhead-costs has the balance: 152565107
+The expense was created, approved and paid successfully, with amount: 635777, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+68
+bank account row found
+The project with slug: org-overhead-costs has the balance: 151929330
+The expense was created, approved and paid successfully, with amount: 634581, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+69
+bank account row found
+The project with slug: org-overhead-costs has the balance: 151294749
+The expense was created, approved and paid successfully, with amount: 507000, at project with slug: org-overhead-costs
+expense added with description:
+admin
+Processing voucher:
+70
+bank account row found
+The project with slug: org-overhead-costs has the balance: 150787749
+The expense was created, approved and paid successfully, with amount: 155056, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+71
+bank account row found
+Successfully added funds to collective with slug: granslandet
+94.45 SEK added with description:
+memberships
+Processing voucher:
+72
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense land rent
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"0840e1c0-3f21-48ce-86ee-2b3a8434fe47","SubmittedAt":"2023-12-20T13:35:36.795131Z","To":"zaunders@gmail.com"}
+Processing voucher:
+73
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense wristbands
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"ceaaa5c2-92f2-4739-8116-7ec3a1d9f453","SubmittedAt":"2023-12-20T13:35:38.9165449Z","To":"zaunders@gmail.com"}
+Processing voucher:
+74
+bank account row found
+The project with slug: granslandet has the balance: 2683437546
+The expense was created, approved and paid successfully, with amount: 3001050, at project with slug: granslandet
+expense added with description:
+Fund, Co2 offsetting
+Processing voucher:
+75
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense container
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"434bf597-0338-4a49-ab68-3f9c764ad4da","SubmittedAt":"2023-12-20T13:35:44.0326838Z","To":"zaunders@gmail.com"}
+Processing voucher:
+76
+bank account row found
+The project with slug: org-overhead-costs has the balance: 150632693
+The expense was created, approved and paid successfully, with amount: 158484, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+77
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"fbfa3619-a8d1-47c5-a29a-dbd556fb0569","SubmittedAt":"2023-12-20T13:35:49.2885702Z","To":"zaunders@gmail.com"}
+Processing voucher:
+78
+bank account row found
+The project with slug: granslandet has the balance: 2680436496
+The expense was created, approved and paid successfully, with amount: 71600, at project with slug: granslandet
+expense added with description:
+memberships
+Processing voucher:
+79
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"8f386e78-f1f1-4637-b641-10da77378f92","SubmittedAt":"2023-12-20T13:35:54.3092486Z","To":"zaunders@gmail.com"}
+Processing voucher:
+80
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"9df9f007-3994-4c07-a823-5c12e0865600","SubmittedAt":"2023-12-20T13:35:56.5583696Z","To":"zaunders@gmail.com"}
+Processing voucher:
+81
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense vehicles
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"596cc16e-4db4-4d44-8736-51cfe93d1e82","SubmittedAt":"2023-12-20T13:36:03.6283859Z","To":"zaunders@gmail.com"}
+Processing voucher:
+82
+bank account row found
+The project with slug: org-overhead-costs has the balance: 150474209
+The expense was created, approved and paid successfully, with amount: 374400, at project with slug: org-overhead-costs
+expense added with description:
+insurance
+Processing voucher:
+83
+bank account row found
+The project with slug: dream-grants-2023 has the balance: 167362620
+The expense was created, approved and paid successfully, with amount: 3765800, at project with slug: dream-grants-2023
+expense added with description:
+dream
+Processing voucher:
+84
+bank account row found
+The project with slug: org-overhead-costs has the balance: 150099809
+The expense was created, approved and paid successfully, with amount: 1132008, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+85
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense threshold/Other location cost
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"2aedb3bf-ec67-490e-8395-f6e1b657f64b","SubmittedAt":"2023-12-20T13:36:14.8591268Z","To":"zaunders@gmail.com"}
+Processing voucher:
+86
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"54ba3a68-c743-4e81-8733-c72457883304","SubmittedAt":"2023-12-20T13:36:17.0431729Z","To":"zaunders@gmail.com"}
+Processing voucher:
+87
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"a4a741e8-f2cd-4cf5-b676-4182d1ece43e","SubmittedAt":"2023-12-20T13:36:19.1928896Z","To":"zaunders@gmail.com"}
+Processing voucher:
+88
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense vehicles
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"068f750d-c2e1-412d-8a79-553a7d84553c","SubmittedAt":"2023-12-20T13:36:21.440991Z","To":"zaunders@gmail.com"}
+Processing voucher:
+89
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense toilets
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"c2364219-cfda-433f-b400-16825b1e2d9f","SubmittedAt":"2023-12-20T13:36:23.4588662Z","To":"zaunders@gmail.com"}
+Processing voucher:
+90
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense vehicles
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"e138322e-7b1f-49cd-b180-cf21d38cd887","SubmittedAt":"2023-12-20T13:36:25.4328013Z","To":"zaunders@gmail.com"}
+Processing voucher:
+91
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+Insufficient funds
+Insufficient funds for expense toilets
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"cd36f920-b59a-4e46-955b-33d32af168f8","SubmittedAt":"2023-12-20T13:36:27.5910143Z","To":"zaunders@gmail.com"}
+Processing voucher:
+92
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 201871
+The expense was created, approved and paid successfully, with amount: 194500, at project with slug: Infrastructure-2023
+expense added with description:
+toilets
+Processing voucher:
+93
+bank account row found
+The project with slug: org-overhead-costs has the balance: 148967801
+The expense was created, approved and paid successfully, with amount: 844976, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+94
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense trash
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"e9fa7144-4b06-43cc-bee2-5b88c41cbd8f","SubmittedAt":"2023-12-20T13:36:40.3887254Z","To":"zaunders@gmail.com"}
+Processing voucher:
+95
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense vehicles
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"eb82d66d-aca7-42ca-ae2b-ded2d71e2114","SubmittedAt":"2023-12-20T13:36:42.484095Z","To":"zaunders@gmail.com"}
+Processing voucher:
+96
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense toilets (changed from vehicles 2023-11-24)
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"c2763416-65d7-43e0-af84-86785b1e4b00","SubmittedAt":"2023-12-20T13:36:44.6885262Z","To":"zaunders@gmail.com"}
+Processing voucher:
+97
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense trash
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"38a2543a-7a37-4125-b583-94d9318778d2","SubmittedAt":"2023-12-20T13:36:46.8387214Z","To":"zaunders@gmail.com"}
+Processing voucher:
+98
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense electricity
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"d1bddf81-1572-4222-b4d3-d1c5933d8222","SubmittedAt":"2023-12-20T13:36:49.0954241Z","To":"zaunders@gmail.com"}
+Processing voucher:
+99
+bank account row found
+The project with slug: Infrastructure-2023 has the balance: 7371
+Insufficient funds
+Insufficient funds for expense container
+Error sent successfully! {"ErrorCode":0,"Message":"OK","MessageID":"22fb229c-a8b7-4efc-9f0e-64aa89da9096","SubmittedAt":"2023-12-20T13:36:51.2487788Z","To":"zaunders@gmail.com"}
+Processing voucher:
+100
+bank account row found
+Successfully added funds to collective with slug: granslandet
+669.9 SEK added with description:
+dream
+Processing voucher:
+101
+bank account row found
+Successfully added funds to collective with slug: granslandet
+934.7 SEK added with description:
+dream
+Processing voucher:
+102
+bank account row found
+The project with slug: org-overhead-costs has the balance: 148122825
+The expense was created, approved and paid successfully, with amount: 513716, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+103
+bank account row found
+The project with slug: org-overhead-costs has the balance: 147609109
+The expense was created, approved and paid successfully, with amount: 141069, at project with slug: org-overhead-costs
+expense added with description:
+server
+Processing voucher:
+104
+Processing voucher:
+105
+Processing voucher:
+106
+Processing voucher:
+107
+Processing voucher:
+108
+Processing voucher:
+109
+Processing voucher:
+110
+Processing voucher:
+111
+Processing voucher:
+112
+Processing voucher:
+113
+Processing voucher:
+114
+Processing voucher:
+115
+Processing voucher:
+116
+Processing voucher:
+117
+Processing voucher:
+118
+Processing voucher:
+119
+Summary email fortnox to OC sent successfully!
+script reading bookings from fortnox and creating OC expenses finished!

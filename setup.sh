@@ -10,7 +10,8 @@ sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
 
 # Install Python packages
-pip3 install numpy python-dotenv requests datetime -y
+pip3 install numpy python-dotenv requests datetime reportlab -y
+apt install python3-numpy
 
 # reset numpy files
 python3 reset_numpy_tracking_lists.py
@@ -19,3 +20,7 @@ python3 reset_numpy_tracking_lists.py
 mkdir json_files
 mkdir pdfs
 
+# Things to do:
+# - change paths to .env file
+# - reset numpy files
+# 
