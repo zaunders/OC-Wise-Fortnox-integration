@@ -28,7 +28,7 @@ def sendFinished(html_list):
     payload = {
         "From": "viktor@darksoil.studio",  # Replace with your sender email address
         "To": summary_email_recipient,  # Replace with the recipient email address
-        "Subject": "Script running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" ran successfully!",
+        "Subject": "[OC-to-F-Script] running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" ran successfully!",
         "HtmlBody": "The integration script found the following wise transactions and created respective vouchers in Fortnox:<br><br>"+html+"<br><br>Have a good day!"
 
     }

@@ -26,7 +26,7 @@ def getVouchers(offset):
 
     try:
         # Send a POST request to create the voucher
-        response = requests.get(api_url, headers=headers, params=params, headers=headers)
+        response = requests.get(api_url, headers=headers, params=params)
 
         # Check if the request was successful (HTTP status code 200 or 201)
         if response.status_code in {200, 201}:

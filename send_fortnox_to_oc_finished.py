@@ -28,7 +28,7 @@ def sendFinishedOC(html_list):
     payload = {
         "From": "viktor@darksoil.studio",  # Replace with your sender email address
         "To": summary_email_recipient,  # Replace with the recipient email address
-        "Subject": "Script running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" ran successfully!",
+        "Subject": "[F-to-OC-script] running at "+now.strftime("%d/%m/%Y %H:%M:%S")+" ran successfully!",
         "HtmlBody": "The integration script read and processed the follwing vouchers:<br><br>"+html+"<br><br>Have a good day!"
 
     }
