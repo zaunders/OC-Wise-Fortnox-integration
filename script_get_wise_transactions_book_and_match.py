@@ -233,8 +233,7 @@ for item in transactions_with_oc_info:
     if requests_made_to_fortnox > 24:
         time.sleep(5)
         requests_made_to_fortnox = 0
-    
-    print(item.get("Tags"))
+
 
     if not item.get("transferId") in booked_transaction_ids:
 
@@ -250,9 +249,6 @@ for item in transactions_with_oc_info:
 
         # Find the right booking account in Fortnox, if unfound, the uncategorized account code remains
         for account_codes in fortnox_account_lookup:
-            print(account_codes.get("name"))
-            print(item.get("AccountSlug"))
-            print(item.get("Tags"))
             if item.get("AccountSlug") == account_codes.get("name"):
                 booking_account = account_codes.get("account")
                 found_booking_account = True
