@@ -8,7 +8,7 @@ import os
 
 
 # 
-def createVoucher(creation_date, description, transferId, value, debit_account, credit_account):
+def createVoucher(creation_date, description, transferId, value, debit_account, credit_account, transferFee):
     load_dotenv("/home/viktor/Documents/OC-coding/OC-Wise-Fortnox-integration/.env")    
     access_token = os.getenv('fortnox_access_token')
 
@@ -37,7 +37,12 @@ def createVoucher(creation_date, description, transferId, value, debit_account, 
                 {
                     "Account": credit_account,  # Wise account
                     "Debit": 0.00,
-                    "Credit": value  # Replace with the credit amount
+                    "Credit": value+transferFee  # Replace with the credit amount
+                },
+                {
+                    "Account": 6570,  # Transaction fees account
+                    "Debit": transferFee,
+                    "Credit": 0.00,  
                 }
             ]
         }

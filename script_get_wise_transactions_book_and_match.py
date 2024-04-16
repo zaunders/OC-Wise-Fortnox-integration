@@ -18,6 +18,7 @@ from fortnox_get_voucher_by_voucher_number import getVoucherByVoucherNumber
 from send_oc_token_expiring import sendOcExpiring
 from send_script_finished_log import sendFinished
 from get_time_since_day import get_time_since_created
+from wise_get_fee_for_transaction import wise_get_fee_for_transaction
 import time
 
 
@@ -113,6 +114,7 @@ for i in range(1, 20):
                 # Iterate through the transfers and write each transfer to the CSV file
             for transfer in transfers:
                 transfer_id = transfer["id"]
+                quoteUuid = transfer["quoteUuid"]
                 status = transfer["status"]
                 detailReference = transfer["details"]["reference"]
                 created = transfer["created"]
@@ -123,7 +125,8 @@ for i in range(1, 20):
 
 
                 new_Wise_transaction = {
-                    "transferId": str(transfer_id), 
+                    "transferId": str(transfer_id),
+                    "quoteUuid": quoteUuid, 
                     "status": status, 
                     "created": created, 
                     "value": source_value, 
@@ -236,12 +239,13 @@ for item in transactions_with_oc_info:
 
 
     if not item.get("transferId") in booked_transaction_ids:
+        transfer_fee = wise_get_fee_for_transaction(item.get("quoteUuid"))
 
         # Create a pdf for each transaction
-        pdf_path = make_voucher_pdf(item.get("transferId"), item.get("created"), item.get("value"), item.get("AccountSlug"), item.get("Description"), item.get("LegacyId"), item.get("Tags"), item.get("invoiceFiles"), item.get("items"))
+        pdf_path = make_voucher_pdf(item.get("transferId"), item.get("created"), item.get("value"), item.get("AccountSlug"), item.get("Description"), item.get("LegacyId"), item.get("Tags"), item.get("invoiceFiles"), item.get("items"), transfer_fee)
         
         # Create a .json file for each transaction
-        json_path = makeJson(item.get("transferId"), item.get("created"), item.get("value"), item.get("AccountSlug"), item.get("Description"), item.get("LegacyId"), item.get("Tags"), item.get("invoiceFiles"), item.get("items"))
+        json_path = makeJson(item.get("transferId"), item.get("created"), item.get("value"), item.get("AccountSlug"), item.get("Description"), item.get("LegacyId"), item.get("Tags"), item.get("invoiceFiles"), item.get("items"), transfer_fee)
     
         ## the account 6994 is set as "uncategorized costs" which would be moved later in the bookkeeping, it is for unmatched expenses
         booking_account = 6994
@@ -262,7 +266,7 @@ for item in transactions_with_oc_info:
 
         
         # booking the transaction into fortnox (Wise transactionId is the transferId)
-        bookedVoucher = createVoucher(item.get("created")[:10], item.get("Description"), item.get("transferId"), item.get("value"), booking_account, 1941)
+        bookedVoucher = createVoucher(item.get("created")[:10], item.get("Description"), item.get("transferId"), item.get("value"), booking_account, 1941, transfer_fee)
         
         # Add the booked transfer to the list of booked transfers as long as it returned a valid object
         if bookedVoucher["Voucher"]["Comments"] != None:

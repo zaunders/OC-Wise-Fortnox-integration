@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 import os
 
 
-def make_voucher_pdf(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items):
+def make_voucher_pdf(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items, transferFee):
     invoice_file_list = invoiceFiles.split(";")
     expence_items_list = Items.split(";")
 
@@ -48,6 +48,12 @@ def make_voucher_pdf(transferId, created, value, AccountSlug, Description, Legac
     c.drawString(30, height-currentHeight, f"Sum total:")
     c.setFont("Helvetica-Bold", 10)
     c.drawString(150, height-currentHeight, f"{value} sek")
+    currentHeight += 15
+
+    c.setFont("Helvetica", 10)
+    c.drawString(30, height-currentHeight, f"Transfer fee:")
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(150, height-currentHeight, f"{transferFee} sek")
     currentHeight += 15
 
     

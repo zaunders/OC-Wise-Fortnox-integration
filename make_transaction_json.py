@@ -1,7 +1,7 @@
 import json
 import os
 
-def makeJson(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items):
+def makeJson(transferId, created, value, AccountSlug, Description, LegacyId, Tags, invoiceFiles, Items, transferFee):
     relative_path=os.getenv("relative_path")
 
     transaction_json = {
@@ -13,7 +13,8 @@ def makeJson(transferId, created, value, AccountSlug, Description, LegacyId, Tag
         "LegacyId": LegacyId,
         "Tags": Tags,
         "invoiceFiles": invoiceFiles,
-        "Items": Items   
+        "Items": Items,
+        "transferFee": transferFee
     }
     
     # Specify the name of the file you want to write to
