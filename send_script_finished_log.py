@@ -16,7 +16,7 @@ def sendFinished(html_list):
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "X-Postmark-Server-Token": "495cc6b1-7397-4c06-a821-6f42aa8d6560"  # token managed by viktor@darksoil.studio
+        "X-Postmark-Server-Token": access_token  # token managed by viktor@darksoil.studio
     }
     now = datetime.now()
     
