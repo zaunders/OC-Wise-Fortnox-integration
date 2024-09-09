@@ -1,4 +1,5 @@
 import requests
+from remove_special_characters import remove_special_characters
 
 
 def getExpensesFromOC(accessToken, offset, startDate):
@@ -94,6 +95,7 @@ def getExpensesFromOC(accessToken, offset, startDate):
                 expenseId = expense['id']
                 expenseAccountSlug = expense['account']['slug']
                 expenseDescription = expense['description']
+                clean_expenseDescription = remove_special_characters(expenseDescription)
                 expenseLegacyId = expense['legacyId']
                 expenseType = expense['type']
                 expenseCreatedAt = expense['createdAt']
@@ -131,7 +133,7 @@ def getExpensesFromOC(accessToken, offset, startDate):
                 new_OC_expense = {
                     "MerchantId": expenseMerchantId, 
                     "AccountSlug": expenseAccountSlug, 
-                    "Description": expenseDescription, 
+                    "Description": clean_expenseDescription, 
                     "LegacyId": expenseLegacyId, 
                     "Type": expenseType, 
                     "CreatedAt": expenseCreatedAt, 
